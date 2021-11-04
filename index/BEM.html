@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@400;700&family=Walter+Turncoat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>BEM</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header header__titulo">
+            PRUEBA BEM
+        </h1>
+    </header>
+    <main>
+        <nav class="navbar navbar-expand-lg row"><!--Navegador de la pagina-->
+            <ul class="navbar navbar__container col-lg-12"> 
+             <li class="navbar navbar__boton col-lg-2 col-xs-2"><a class="navbar navbar__boton--texto" href="#home"><strong>HOME</strong></a></li>
+             <li class="navbar navbar__boton col-lg-2 col-xs-2"><a class="navbar navbar__boton--texto" href="./proteinas.html"><strong>PROTEINAS</strong></a>
+             </li>
+             <li class="navbar navbar__boton col-lg-2 col-xs-2"><a class="navbar navbar__boton--texto" href="./energizantes.html"><strong>ENERGIZANTES</strong></a>
+             </li>    
+             <li class="navbar navbar__boton col-lg-2 col-xs-2"><a class="navbar navbar__boton--texto" href="./bebidas.html"><strong>BEBIDAS</strong></a>
+             </li>    
+             <li class="navbar navbar__boton col-lg-2 col-xs-2"><a class="navbar navbar__boton--texto" href="#top1"><strong>CONOCENOS</strong></a></li>
+             <li class="navbar navbar__boton col-lg-2 col-xs-2"><a class="navbar navbar__boton--texto" href="#top"><strong>CONTACTANOS</strong></a></li>
+           </ul>
+         </nav> 
+         <section class="publicidad">
+             <h1 class="publicidad publicidad__titulo">PUBLICIDAD</h1>
+             <p class="publicidad publicidad__titulo--texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio mollitia magnam nulla quo, placeat repudiandae perspiciatis consequatur quae non deleniti aut quos. Reprehenderit dolorum perferendis deleniti quibusdam, vero quisquam illo consectetur ad nesciunt facere enim corporis hic velit minima unde suscipit adipisci quaerat itaque totam quam nihil. Dolores laudantium ullam fugiat voluptas architecto porro ad repellendus voluptate consequatur doloremque dignissimos, consequuntur minus expedita eaque voluptates illum itaque molestias. Corrupti, similique minus. Voluptates, accusantium. Debitis in nihil incidunt laborum earum dignissimos, vero quod voluptas fugiat corporis possimus neque iste modi ad non similique. Nobis architecto, ab quos eum officia repellat quibusdam, nihil corrupti sunt aut quidem laboriosam molestias voluptates. Sed enim, id aspernatur suscipit vitae iure dolor ex sequi exercitationem fuga eaque veniam blanditiis modi rerum, facere dicta error voluptatibus. Amet quisquam iure aspernatur vero eius laudantium sapiente recusandae commodi cum atque. Provident, maxime recusandae ab quo voluptatum odit labore facere dicta inventore ullam at aliquam, quos optio. Quod minus explicabo laborum odio. Repellat magni illum maiores quibusdam ullam nobis eos nihil voluptatem, accusantium quae numquam placeat iste minus, corrupti tempora atque culpa exercitationem error. Unde dolorum necessitatibus laborum minima maxime quae, incidunt nemo deleniti nam laboriosam id reprehenderit, itaque illum.</p>
+         </section>
+        <fieldset class="productos row"  ><!--PRODUCTOS PRIMER PLANO-->
+            <section >
+                     <h2>PRODUCTOS</h2>
+                       <div class="productos productos__proteinas col-4"> <img src="./img/Natgyp.jpeg" width="310px" alt=""> 
+                       <a class="productos productos__proteinas--texto" href="./proteinas.html"><strong>PROTEINAS</strong></a> 
+                       </div>
+                       <div class="productos productos__proteinas col-4"><img src="./img/energy.png" width="250px" alt=""><a class="productos productos__proteinas--texto" href="./energizantes.html"> <strong>ENERGIZANTES</strong></a>
+                      </div>
+                       <div class="productos productos__proteinas col-4"> <img src="./img/bebidaisotonica.jpg" width="292px" alt="">
+                       <a class="productos productos__proteinas--texto" href="./bebidas.html"><strong>BEBIDAS</strong></a>
+                      </div>
+           </section>
+        </fieldset>
+        <hr>
+        <section class="entrenate"><!----entrenate con nosotros, video-->
+            <fieldset class="entrenate entrenate__fondo">
+              <h2 class="entrenate entrenate__fondo--titulo">ENTRENA CON NOSOTROS</h2>
+              <iframe width="85%" height="700" src="https://www.youtube.com/embed/cbCt69XAUKA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </fieldset>
+        </section>   
+        <section class="historia">
+            <h1 class="historia historia__titulo" id="top1">CONOCENOS👓</h1><!--historia de natgy-->
+            <p class="historia historia__texto"> todo comenzo en febrero del 2020 en Nurember, Alemania en la feria internacional <strong>BIOFACH2020</strong> ahi fue donde progamamos nuestro objetivo que consistia en generar una marca de suplementos deportivos de alto rendimiento de origen vegetal.</p> 
+            <p class="historia historia__texto">argentina es un gran productor de materias primas y <strong>NATGY</strong> natural energy llega al mercado para revolucionar la nutricion deportiva donde lo <strong>NATURAL Y SALUDABLE</strong> son los pilares esenciales de sus productos.
+            apuntamos a personas exigentes donde su bien estar personal y su rendimiento fisico estan en la busqueda del dia a dia.</p>
+            <p class="historia historia__texto"><strong>NATGY</strong> propone en su linea de productos <strong>PROTEINAS, ENERGIZANTES Y BEBIDAS</strong> para acompanar a los deportistas en todo momento de su recuperacion.
+            es apta veganos, no contiene gluten y los polvos no pierden sus cualidades especificas si las queres cocinar, lo que hace que puedas utilizarlas en todas las recetas que se te ocurran.</p>
+            <p class="historia historia__texto"><strong>NATGY</strong> natural energy llego para acompañarte en todo momento.</p>
+        </section>
+        <section>
+          <div class="social">
+            <a class="social social__icon" href="https://www.facebook.com/natgy.naturalenergy" target="_blanck"> <img src="./img/facebook1.jpg" width="" alt=""> </a>
+            <a class="social social__icon" href="https://www.instagram.com/natgy.naturalenergy/" target="_blanck"> <img src="./img/instagram.jpg" width="" alt=""></a>
+            <a class="social social__icon" href="https://twitter.com/gy_nat/" target="_blanck"> <img src="./img/twitter-square-black-and-white-logo-962E683117-seeklogo.com.png" width="" alt=""> </a>
+         </div> 
+        </section>
+    </main>
+    <footer class="footer">
+    <hr>
+        <h3 class="footer footer__nombre">
+            realizado por PABLO CANAVOSIO
+        </h3>
+    </footer>
+    
+</body>
+</html>

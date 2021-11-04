@@ -1,0 +1,286 @@
+*{margin:0 ;
+padding:0 ;}
+
+/* Dejo configurado estilos de texto  */
+h1{color: rgb(67, 67, 179);
+font-size: 60px;
+font-weight: 550;
+text-align: center;
+letter-spacing: 10px;
+font-family:"helvetica, arial, sans-serif" ;
+text-transform: uppercase;
+text-decoration-style: solid;
+text-decoration-line: underline;
+}
+
+h2{color: yellow;
+  font-size: 60px;
+  font-weight: 350;
+  text-align: center;
+  letter-spacing: 12px;
+  font-family: 'Times New Roman', Times, serif ;
+  text-transform: uppercase;
+text-decoration-style: solid;
+  }
+
+h3{color: rgb(20, 85, 206);
+  font-size: 28px;
+  font-weight: 150;
+  text-align:center;
+  letter-spacing: 12px;
+  font-family: 'Times New Roman', Times, serif ;
+  text-transform: uppercase;
+  text-decoration-style: solid;
+}
+
+h4{color: rgb(2, 3, 3);
+  font-size: 25px;
+  font-weight: 120;
+  text-align:justify;
+  letter-spacing: 8px;
+  font-family: 'Times New Roman', Times, serif ;
+  text-transform: uppercase;
+  text-decoration-style: solid;
+}
+
+
+
+
+td{color: rgb(184, 137, 75);}
+tr td{color:rgb(65, 53, 53);}
+
+table{
+  display: block;
+  margin: auto;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  flex: 1;
+  height:initial;
+  font-size: 50px;
+  width: fit-content;
+}
+
+/*  */
+p{color: rgb(26, 26, 31);
+text-align: center;
+padding: 5px 10px 12px 15px;
+
+font-family: 'Luckiest Guy', cursive;}
+
+.imagenCentrada{display: block;
+margin: auto;}
+
+.parrafoNoCentrado{text-align: left;}
+
+
+ul{
+  
+text-align: center;
+position: relative;
+list-style: none;
+
+}
+
+
+ul li{
+    position:relative;
+    display:inline-block;
+  
+}
+
+ul li a{
+  text-decoration: none;
+  color: aliceblue;
+  background-color: blue;
+  border-radius: 100px 100px 100px 100px;
+  border:yellow solid 2px;
+  font-size: 35px;
+  font-weight: 35px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+ul ul{
+    position: absolute;
+    display: none;
+}
+
+ul ul li{
+  display: block;
+}
+
+ul li a:hover {
+  background-color: rgb(226, 223, 21);
+  padding: 4px;
+}
+
+ul li:hover ul{
+  display: block;
+}
+
+
+/* Dejo configurado estilos de Listas  */
+ol li{color: rgb(11, 15, 17);
+display: block;
+margin: auto;
+}
+
+article{text-decoration-line: underline;text-align: center;}
+
+/* Dejo configurado estilos de \Fondos  */
+.colorDelMenu{border-top:solid 5px whitesmoke;
+  border-bottom:solid 10px whitesmoke;
+  background-color: rgba(87, 156, 221, 0.596);
+  background-size: cover}
+
+
+
+.fondo{background-image:url(../imagenes/fondoblanco.jpg);
+  background-size:cover;
+
+}
+
+.mapas{justify-content: center;
+
+}
+
+.imagenCentrada{margin-left: 42%;
+border-radius: 200px 200px 200px 200px;}
+
+.imagenFundadores{justify-content: center;}
+
+.videoCentrada{display: flex;
+  height: 250px;
+  padding: 0px;
+  flex-direction: column wrap;
+  margin-left: 38%;
+}
+
+
+.audioCentrado{margin-left: 8%;}
+
+footer{color: rgb(15, 14, 15);
+font-size: 25px;}
+
+
+/*.logoMove{transform:scale(2,1);
+  margin-left: 42%;
+}
+
+div:hover{transform:scale(2,1);
+}*/
+
+
+input{
+  width: 150px;
+  height: 100px;
+  transition: all 5s;
+}
+input:focus{width: 200px;font-size: 24px;}
+
+/*.padreFundador{
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows:1fr 2fr 2fr 1fr ;
+  grid-template-areas: 
+  "fotos fotos fotos"
+  "fotos fotos fotos"
+  "andres andres carlos"
+  "andres andres carlos";
+  grid-gap:2px;                     
+  align-items:stre;
+  justify-self: center;
+  align-content: stretch;      
+}
+
+.fotoDos{grid-area: fotos;
+  align-self:stretch;  
+  border: black solid 3px;
+  border-radius: 100px 100px 100px 100px;
+}
+
+.fotoAndres{grid-area: andres;
+  border: black solid 3px;
+  border-radius: 2.5%;}
+
+.fotoCarlos{grid-area: carlos;
+  border: black solid 3px;
+  border-radius: 2.5%;}
+
+.padreProducto{
+display: grid;
+/*width: 90%;*/
+height: 80%;
+grid-template-columns:40% 40%;
+/*grid-template-rows:1fr 1fr 1fr 1fr;*/
+grid-template-areas: 
+"lec lec"
+"cam pla";
+grid-gap:2px;                     
+align-items:center;
+justify-self: center;
+align-content: stretch;    
+}/*
+
+.lector{grid-area: lec;
+  justify-self: center;
+
+ }
+
+.camaras{grid-area: cam;
+  justify-self: center;}
+
+.placas{grid-area: pla;
+  justify-self: center;}*/
+
+div img{
+
+}
+
+
+@media only screen and (max-width:768px ) {
+  
+  h1 {
+    color:rgb(17, 89, 74) ;
+  }
+  .colorDelMenu{
+    border: 4px solid black;
+    background-color: green;
+  }
+}
+  
+@media only screen and (min-width: 768px ){
+
+  .colorDelMenu{
+    border: 4px solid black;
+    background-color: red;
+}
+@media only screen and (min-width: 1024px ){
+
+  .colorDelMenu{
+    border: 4px solid black;
+    background-color: blue;
+}
+}
+
+.diseñoBoton{
+  padding: 10px;
+  margin: 15px;
+  text-decoration: none;
+  color:whitesmoke;
+  background-color: rgba(247, 100, 47, 0.658);
+  border-radius: 100px 100px 100px 100px;
+  border: rgb(167, 151, 151) solid 0,75px;
+  font-family: "confotaa", sans-serif;
+  font-size: 30px;
+  font-weight: 30px;
+
+
+}
+.botones{
+  text-align: center;
