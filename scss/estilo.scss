@@ -1,0 +1,255 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	color: rgb(26, 26, 23);
+	font-size: 60px;
+	font-weight: 550;
+	text-align: center;
+	letter-spacing: 10px;
+	font-family:'Times New Roman', Times, serif;
+	text-transform: uppercase;
+	text-decoration-style: solid;
+	text-decoration-line: underline;
+}
+h2 {
+	color: rgb(26, 26, 23);
+	font-size: 60px;
+	font-weight: 350;
+	text-align: center;
+	letter-spacing: 12px;
+	font-family: 'Times New Roman', Times, serif;
+	text-transform: uppercase;
+	text-decoration-style: solid;
+    background-color: rgba(240, 248, 255, 0.541);
+    border-radius: 100px;
+    border: black solid 3px;
+}
+h3 {
+	color: rgb(12, 15, 22);
+	font-size: 28px;
+	font-weight: 150;
+	text-align: center;
+	letter-spacing: 12px;
+	font-family: 'Times New Roman', Times, serif;
+	text-transform: uppercase;
+	text-decoration-style: solid;
+    background-color: rgba(240, 248, 255, 0.534);
+    border-radius: 100px;
+    border: black solid 3px;
+}
+h4 {
+	color: rgb(2, 3, 3);
+	font-size: 25px;
+	font-weight: 120;
+	text-align: justify;
+	letter-spacing: 8px;
+	font-family: 'Times New Roman', Times, serif;
+	text-transform: uppercase;
+	text-decoration-style: solid;
+}
+td {
+	color: rgb(184, 137, 75);
+}
+tr {
+	td {
+		color: rgb(65, 53, 53);
+	}
+}
+table {
+	display: block;
+	margin: auto;
+	text-align: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+	flex: 1;
+	height: initial;
+	font-size: 50px;
+	width: fit-content;
+}
+p {
+	color: rgb(26, 26, 31);
+	text-align: center;
+	padding: 10px 12px 12px 15px;
+	font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(255, 255, 255, 0.685);
+    font-size: 30px;
+    border-radius: 100px;
+    border: black solid 3px;
+
+}
+.imagenCentrada {
+	display: block;
+	margin: auto;
+	border-radius: 20px;
+	margin-left: 42%;
+	border-radius: 200px 200px 200px 200px;
+}
+.parrafoNoCentrado {
+	text-align: left;
+}
+img {
+	border-radius: 100px;
+	display: inline-block;
+	text-align: center;
+}
+div {
+	img {
+		border-radius: 100px;
+		display: inline-block;
+		text-align: center;
+	}
+}
+ul {
+	text-align: center;
+	position: relative;
+	list-style: none;
+	li {
+		position: relative;
+		display: inline-block;
+		a {
+			text-decoration: none;
+			color: rgb(5, 7, 8);
+			background-color: rgb(239, 239, 245);
+			border-radius: 100px 100px 100px 100px;
+			border: rgb(104, 104, 84) solid 2px;
+			font-size: 35px;
+			font-weight: 35px;
+			font-family: 'Times New Roman', Times, serif;
+			&:hover {
+				background-color: rgb(51, 51, 38);
+				padding: 4px;
+			}
+		}
+		&:hover {
+			ul {
+				display: block;
+			}
+		}
+	}
+	ul {
+		position: absolute;
+		display: none;
+		li {
+			display: block;
+		}
+	}
+}
+ol {
+	li {
+		color: rgb(11, 15, 17);
+		display: block;
+		margin: auto;
+	}
+}
+article {
+	text-decoration-line: underline;
+	text-align: center;
+}
+.fondo {
+	background-image: url(../imagenes/fondos/fondoblanco1.png);
+	background-size: cover;
+}
+.nombre{
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+
+}
+
+.rol{
+    text-decoration: none;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+
+}
+
+.sticky-bottom{
+    position: fixed;
+    top: 580px;
+    right: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    z-index: 1;
+    }
+
+.vision{
+    background-color: rgba(245, 245, 245, 0.568);
+    border-radius: 80px;
+}
+.productos{
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(255, 255, 255, 0.705);
+    text-align:center;
+    justify-content:center;
+
+}
+.mapas{
+	text-align: center;
+    display: block;
+    margin: auto;
+    border-radius: 85px;
+}
+
+.botones{
+	text-align: center;
+    display: block;
+    margin: auto;
+    border-radius: 120px;
+}
+div label{
+background-color: white;
+border-radius: 20px;
+
+}
+.imagenFundadores {
+	justify-content: center;
+}
+.videoCentrada {
+	display: flex;
+	height: 250px;
+	padding: 0px;
+	flex-direction: column wrap;
+	margin-left: 38%;
+}
+.audioCentrado {
+	margin-left: 8%;
+}
+footer {
+	color: rgb(15, 14, 15);
+	font-size: 25px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.562);
+    border-top: black solid 5px;
+}
+input {
+	width: 150px;
+	height: 100px;
+	transition: all 5s;
+	&:focus {
+		width: 200px;
+		font-size: 24px;
+	}
+}
+.diseñoBoton {
+	padding: 10px;
+	margin: 15px;
+	text-decoration: none;
+	color: whitesmoke;
+	background-color: rgba(247, 100, 47, 0.658);
+	border-radius: 100px 100px 100px 100px;
+	border: rgb(167, 151, 151) solid 0,75px;
+	font-family: "confotaa", sans-serif;
+	font-size: 30px;
+	font-weight: 30px;
+}
