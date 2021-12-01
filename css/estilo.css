@@ -16,7 +16,7 @@ h1 {
 
 h2 {
   color: #1a1a17;
-  font-size: 60px;
+  font-size: 30px;
   font-weight: 350;
   text-align: center;
   letter-spacing: 12px;
@@ -229,3 +229,15 @@ input {
   font-family: "confotaa", sans-serif;
   font-size: 30px;
   font-weight: 30px; }
+
+@media only screen and (max-width: 750px) {
+  footer {
+    display: block;
+    justify-content: center;
+    text-align: center; } }
+
+@media only screen and (max-width: 500px) {
+  footer {
+    display: block;
+    justify-content: center;
+    text-align: center; } }

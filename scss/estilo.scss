@@ -15,7 +15,7 @@ h1 {
 }
 h2 {
 	color: rgb(26, 26, 23);
-	font-size: 60px;
+	font-size: 30px;
 	font-weight: 350;
 	text-align: center;
 	letter-spacing: 12px;
@@ -253,3 +253,18 @@ input {
 	font-size: 30px;
 	font-weight: 30px;
 }
+@media only screen and (max-width:750px ){
+	footer {
+		display: block;
+		justify-content: center;
+		text-align: center;
+	}
+}
+@media only screen and (max-width:500px ){
+	footer {
+		display: block;
+		justify-content: center;
+		text-align: center;
+	}
+}
+
